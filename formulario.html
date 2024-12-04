@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        input {
+            width: 20rem;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="action.php" method="POST">
+        <input type="text" name="name" placeholder="Ingrese su nombre">
+        <input type="email" name="email" placeholder="Ingrese su correo electronico">
+        <input type="text" name="username" placeholder="Ingrese su nombre de usuario">
+        <button type="submit" placeholder="Enviar">Enviar</button>
+    </form>
+</body>
+</html>
