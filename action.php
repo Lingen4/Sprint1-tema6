@@ -65,4 +65,14 @@ class Sesion
 $sesion1 = new Sesion($datosSesion);
 echo "<h3> Datos impresos con la creacion de un objeto Sesión y modificación de __toString()</h3><h4>" . $sesion1."</h4>";
 
-//header('Location:formulario.html');
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<form action="formulario.html" method="get">
+    <button type="submit">Volver al formulario</button>
+</form>
+</html>
+
+
